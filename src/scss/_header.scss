@@ -1,16 +1,15 @@
 .header {
-  margin-bottom: 25px;
-  display: flex;
-  height: 51px;
   background-color: #323232;
-  align-items: center;
 
   &-container {
+    margin-bottom: 25px;
+    height: 51px;
     display: flex;
     align-items: center;
-    margin-right: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     justify-content: space-between;
-    width: 1110px;
+    max-width: 1110px;
   }
 
   &-logo {
@@ -24,10 +23,20 @@
 
     &-list {
       display: flex;
-    }
 
-    &-list:not(:last-child) {
-      margin-right: 80px;
+      &-item {
+        margin-right: 1px;
+        padding: 7px 15px;
+      }
+
+      &-item:hover,
+      &-item:focus {
+        background-color: #faaf00;
+
+        .header-nav-link {
+          color: #323232;
+        }
+      }
     }
 
     &-link {
