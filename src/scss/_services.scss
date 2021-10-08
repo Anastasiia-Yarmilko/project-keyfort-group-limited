@@ -40,7 +40,10 @@
 
       &:hover,
       &:focus {
-        background-image: linear-gradient(#faaf004f, #faaf004f);
+        background-image: linear-gradient(
+          rgba(250, 175, 0, 0.3),
+          rgba(250, 175, 0, 0.3)
+        );
         .card-title {
           color: #323232;
           background-color: #faaf00;
