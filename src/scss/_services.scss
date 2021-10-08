@@ -16,28 +16,47 @@
   }
 
   &-card {
-    position: relative;
+    // position: relative;
+    width: 255px;
+    height: 250px;
 
     &:not(:last-child) {
       margin-right: 30px;
     }
 
+    &-image {
+      position: relative;
+    }
+
     &-info {
-      width: 255px;
-      height: 250px;
+      //   width: 255px;
+      //   height: 250px;
+      width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      //   position: absolute;
-      //   top: 0;
       text-align: center;
       align-items: center;
       justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      //   &:hover,
+      //   &:focus {
+      //     background-image: linear-gradient(#faaf005e, #faaf005e),
+      //       url("../images/img-1-1x.png");
+      //     .card-title {
+      //       color: #323232;
+      //       background-color: #faaf00;
+      //     }
+      //   }
     }
   }
 
-  &-image {
-    display: block;
-  }
+  //   &-image {
+  //     display: block;
+  //   }
 
   &-logo {
     width: 540px;
@@ -74,32 +93,32 @@
   margin: 0 auto;
 }
 
-.first {
-  padding: 50px 52px;
-  background-image: url(../images/img-1-1x.png);
-}
+// .first {
+//   padding: 50px 52px;
+//   background-image: url(../images/img-1-1x.png);
+// }
 
-.second {
-  padding: 80px 27px;
-  background-image: url(../images/img-2-1x.png);
-}
+// .second {
+//   padding: 80px 27px;
+//   background-image: url(../images/img-2-1x.png);
+// }
 
-.third {
-  padding: 80px 41px;
-  background-image: url(../images/img-3-1x.png);
-}
+// .third {
+//   padding: 80px 41px;
+//   background-image: url(../images/img-3-1x.png);
+// }
 
-.fourth {
-  padding: 80px 36px;
-  background-image: url(../images/img-4-1x.png);
-}
+// .fourth {
+//   padding: 80px 36px;
+//   background-image: url(../images/img-4-1x.png);
+// }
 
-.fifth {
-  padding: 80px 38px;
-  background-image: url(../images/img-5-1x.png);
-}
+// .fifth {
+//   padding: 80px 38px;
+//   background-image: url(../images/img-5-1x.png);
+// }
 
-.sixth {
-  padding: 67px 31px;
-  background-image: url(../images/img-6-1x.png);
-}
+// .sixth {
+//   padding: 67px 31px;
+//   background-image: url(../images/img-6-1x.png);
+// }
