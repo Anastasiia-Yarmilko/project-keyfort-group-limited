@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  height: 51px;
+  background-color: #323232;
+  align-items: center;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    margin-right: 0 auto;
+    justify-content: space-between;
+    width: 1110px;
+  }
+
+  &-logo {
+    height: 50px;
+  }
+
+  &-nav {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+
+    &-list {
+      display: flex;
+    }
+
+    &-list:not(:last-child) {
+      margin-right: 80px;
+    }
+
+    &-link {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+}
