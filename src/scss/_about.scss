@@ -1,0 +1,29 @@
+.about-section {
+  display: flex;
+  margin-bottom: 100px;
+
+  &-info {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #323232;
+  }
+
+  &-description {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
+  &-title {
+    display: inline-block;
+    padding: 7px 31px 7px 10px;
+    margin-bottom: 36px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    width: 245px;
+    background-color: #faaf00;
+  }
+}
