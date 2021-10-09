@@ -10,11 +10,15 @@ const refs = {
 
 const openModal = () => {
     refs.modalBackdrop.classList.remove( 'is-hidden' );
-    refs.input.forEach(function (inp){
-        inp.value = ''
-    });
+    refs.input.forEach( function ( inp ) {
+        inp.value.length > 0
+            ? inp.value = ''
+            : refs.modalBackdrop.classList.add( 'is-hidden' );
+    } );
 };
+
 const closePopup = () => refs.popupBackdrop.classList.add( 'is-hidden' );
+
 const closeModal = () => refs.modalBackdrop.classList.add( 'is-hidden' );
 
 
