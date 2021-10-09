@@ -5,6 +5,7 @@ const refs = {
     modalBackdrop: document.querySelector( '.modal-backdrop' ),
     popupBackdrop: document.querySelector( '.popup-backdrop' ),
     input: document.querySelectorAll( 'input' ),
+    popup: document.querySelector( '.popup' ),
 };
 
 
@@ -17,7 +18,7 @@ const openModal = () => {
     } );
 };
 
-const closePopup = () => refs.popupBackdrop.classList.add( 'is-hidden' );
+const closePopup = () => refs.popup.classList.add( 'is-hidden' );
 
 const closeModal = () => refs.modalBackdrop.classList.add( 'is-hidden' );
 
