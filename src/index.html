@@ -194,7 +194,7 @@
 
     <!-- footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="footer-section container">
             <div class="footer-description">
                 <img src="./images/logo1X.png" alt="Logo of Keyfort Group Limited" class="footer-logo">
                 <p class="footer-description-text">
@@ -224,29 +224,34 @@
     </footer>
 
     <!-- cookies popup -->
-    <div class="popup is-open">
-        <div class="popup-logo"></div>
-        <div class="popup-message">
-            <p class="popup-message-content">Keyfort Group uses <a href="./index.html" class="popup-message-link">Cookies</a> developed by our experts to analyze activities on our site, which improves user interaction
-            and services.
-            By continuing to browse our site pages, you accept the terms of use.
-        </p>
-        <button type="button" class="popup-btn">Accept</button>
+    <div class="backdrop">
+        <div class="popup is-open">
+            <div class="popup-logo">
+                <img src="../src/images/logo1X.png" alt="Logo of Keyfort Group Limited" class="popup-logo-img">
+            </div>
+            <div class="popup-message">
+                <p class="popup-message-content">Keyfort Group uses <a href="./index.html" class="popup-message-link">Cookies</a> developed by our experts to analyze activities on our site, which improves user interaction
+                and services.
+                By continuing to browse our site pages, you accept the terms of use.
+            </p>
+            <button type="button" class="popup-btn">Accept</button>
+            </div>
         </div>
     </div>
 
     <!-- modal window -->
-    <div class="modal">
-        <div class="modal-logo">
-            <img src="./images/logo1X.png" alt="Logo of Keyfort Group Limited">
-        </div>
-        <div class="modal-content">
-            <h2 class="modal-title">Done!</h2>
-            <p class="modal-text">Your message was sent successfully</p>
-            <button type="button" class="modal-btn show-modal">Ok</button>
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <div class="modal-logo">
+                <img src="./images/logo1X.png" alt="Logo of Keyfort Group Limited">
+            </div>
+            <div class="modal-content">
+                <h2 class="modal-title">Done!</h2>
+                <p class="modal-text">Your message was sent successfully</p>
+                <button type="button" class="modal-btn show-modal">Ok</button>
+            </div>
         </div>
     </div>
-    <div class="overlay-popup"></div>
-    
+
 </body>
 </html>
