@@ -1,5 +1,5 @@
 .header {
-  background-color: #323232;
+  background-color: $dark-color;
 
   &-container {
     margin-bottom: 25px;
@@ -32,18 +32,18 @@
 
       &-item:hover,
       &-item:focus {
-        background-color: #faaf00;
+        background-color: $accent-color;
 
         .header-nav-link {
-          color: #323232;
+          color: $dark-color;
         }
       }
     }
 
     &-link {
-      color: #ffffff;
+      color: $main-font-color;
       font-size: 13px;
-      font-weight: 400;
+      font-weight: $regular-font;
     }
   }
 }

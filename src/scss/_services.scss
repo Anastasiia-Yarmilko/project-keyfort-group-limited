@@ -36,7 +36,7 @@
       justify-content: center;
       position: absolute;
       top: 0;
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
       &:hover,
       &:focus {
@@ -45,8 +45,8 @@
           rgba(250, 175, 0, 0.3)
         );
         .card-title {
-          color: #323232;
-          background-color: #faaf00;
+          color: $dark-color;
+          background-color: $accent-color;
         }
       }
     }
@@ -68,23 +68,22 @@
 
 .card-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: $bold-font;
   margin-bottom: 14px;
   display: block;
   padding: 4px 16px;
   font-size: 20px;
   line-height: 25px;
-  color: #ffffff;
-  font-weight: 700;
+  color: $main-font-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-description {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: $regular-font;
   font-size: 15px;
   line-height: 25px;
-  color: #ffffff;
-  font-weight: 400;
+  color: $main-font-color;
 }
 
 .logo-img {

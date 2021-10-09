@@ -7,13 +7,13 @@
     margin-bottom: auto;
     margin-left: 30px;
     margin-right: 30px;
-    color: #323232;
+    color: $dark-color;
   }
 
   &-description {
     font-size: 15px;
     line-height: 25px;
-    font-weight: 400;
+    font-weight: $regular-font;
   }
 
   &-title {
@@ -21,9 +21,9 @@
     padding: 7px 31px 7px 10px;
     margin-bottom: 36px;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: $bold-font;
     width: 245px;
     height: 41px;
-    background-color: #faaf00;
+    background-color: $accent-color;
   }
 }

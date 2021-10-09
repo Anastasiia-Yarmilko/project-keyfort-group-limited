@@ -6,11 +6,11 @@
     padding: 7px 31px 7px 10px;
     margin-bottom: 34px;
     font-size: 25px;
-    color: #323232;
-    font-weight: 700;
+    color: $dark-color;
+    font-weight: $bold-font;
     width: 268px;
     height: 41px;
-    background-color: #faaf00;
+    background-color: $accent-color;
   }
 }
 
@@ -39,15 +39,15 @@
   margin-right: 16px;
   font-size: 60px;
   line-height: 50px;
-  color: #faaf00;
-  font-weight: 700;
+  color: $accent-color;
+  font-weight: $bold-font;
 }
 
 .department {
   font-size: 15px;
   line-height: 25px;
-  color: #323232;
-  font-weight: 400;
+  color: $dark-color;
+  font-weight: $regular-font;
   white-space: nowrap;
   position: relative;
 
